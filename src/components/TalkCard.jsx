@@ -32,13 +32,13 @@ export const TalkCard = ({ upcoming = false, talk, pageRef }) => {
 
 		present({
 	
-		  // presentingElement: pageRef.current
+		  presentingElement: pageRef.current
 		});
 	}
 
 	return (
 
-		<div className={ `${ styles.talkCard } ${ upcoming && styles.upcomingCard }` } onClick={ () => handleShowTalk(talk.id) }>
+		<div className={ `${ styles.talkCard } ${ upcoming && styles.upcomingCard }` } onClick={ handleShowTalk }>
 			<div className={ styles.cardTitle }>
 				<IonIcon color={ upcoming ? "primary" : "white" } icon={ bulb } />
 				<IonCardSubtitle color={ upcoming ? "light" : "primary" }>{ talkCategory.name } talks</IonCardSubtitle>
