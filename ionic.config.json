@@ -1,5 +1,7 @@
 {
   "name": "New Ionic App",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "react"
 }
