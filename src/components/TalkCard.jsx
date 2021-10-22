@@ -32,7 +32,7 @@ export const TalkCard = ({ upcoming = false, talk, pageRef }) => {
 
 		present({
 	
-		  presentingElement: pageRef.current
+		  // presentingElement: pageRef.current
 		});
 	}
 
