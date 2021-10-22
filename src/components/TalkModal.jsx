@@ -1,9 +1,8 @@
 import { IonButton, IonButtons, IonCardSubtitle, IonCol, IonContent, IonGrid, IonHeader, IonIcon, IonPage, IonRow, IonTitle, IonToolbar } from "@ionic/react";
 import { bulb, exitOutline, micOutline, personOutline } from "ionicons/icons";
 import { useStoreState } from "pullstate";
-import { CategoryStore, PeopleStore, TalkStore } from "../store";
-import { getPeople } from "../store/PeopleStore";
-import { getAllPeople, getCategory, getTalk } from "../store/Selectors";
+import { PeopleStore } from "../store";
+import { getAllPeople } from "../store/Selectors";
 
 import styles from "./TalkModal.module.css";
 

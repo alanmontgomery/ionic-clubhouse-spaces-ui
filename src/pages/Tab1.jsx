@@ -1,4 +1,4 @@
-import { IonButton, IonButtons, IonCard, IonCardHeader, IonCardSubtitle, IonCol, IonContent, IonGrid, IonHeader, IonIcon, IonPage, IonRow, IonText, IonTitle, IonToolbar, useIonModal } from '@ionic/react';
+import { IonButton, IonButtons, IonCol, IonContent, IonGrid, IonHeader, IonIcon, IonPage, IonRow, IonText, IonTitle, IonToolbar } from '@ionic/react';
 import { personOutline } from 'ionicons/icons';
 import { useStoreState } from 'pullstate';
 import { TalkStore } from '../store';
@@ -6,7 +6,6 @@ import { getTalks } from '../store/Selectors';
 import './Tab1.css';
 
 import { TalkCard } from "../components/TalkCard";
-import { TalkModal } from "../components/TalkModal";
 import { useRef } from 'react';
 
 const Tab1 = () => {
