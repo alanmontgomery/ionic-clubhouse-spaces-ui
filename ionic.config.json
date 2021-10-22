@@ -1,0 +1,7 @@
+{
+  "name": "ionic-clubhouse-spaces-ui",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
