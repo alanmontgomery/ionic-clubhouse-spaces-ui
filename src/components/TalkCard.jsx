@@ -30,6 +30,8 @@ export const TalkCard = ({ upcoming = false, talk, pageRef }) => {
 
 	const handleShowTalk = () => {
 
+    console.log("in here");
+
 		present({
 	
 		  // presentingElement: pageRef.current
