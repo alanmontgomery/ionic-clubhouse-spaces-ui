@@ -1,7 +1,5 @@
 {
-  "name": "ionic-clubhouse-spaces-ui",
-  "integrations": {
-    "capacitor": {}
-  },
+  "name": "New Ionic App",
+  "integrations": {},
   "type": "react"
 }
